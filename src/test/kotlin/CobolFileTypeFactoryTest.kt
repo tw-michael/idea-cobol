@@ -1,11 +1,9 @@
-import com.intellij.lang.Language
 import com.intellij.openapi.fileTypes.FileTypeConsumer
-import com.intellij.openapi.fileTypes.LanguageFileType
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.mockito.ArgumentCaptor
 import org.mockito.Mockito
-import org.mockito.Mockito.*
+import org.mockito.Mockito.mock
 
 class CobolFileTypeFactoryTest {
     @Test

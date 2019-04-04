@@ -1,6 +1,4 @@
-import com.intellij.lang.java.JavaLanguage
 import com.intellij.openapi.fileTypes.LanguageFileType
-import com.intellij.util.Icons
 import javax.swing.Icon
 
 class CobolFileType : LanguageFileType(CobolLanguage.INSTANCE) {
