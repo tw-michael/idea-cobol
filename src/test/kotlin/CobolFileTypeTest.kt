@@ -1,36 +1,28 @@
-import com.intellij.icons.AllIcons
-import com.intellij.ide.highlighter.JavaFileType
-import com.intellij.openapi.util.IconLoader
-import com.intellij.util.Icons
-import com.intellij.util.Icons.JAR_ICON
-import org.junit.Ignore
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
-import org.junit.jupiter.api.Disabled
 import javax.swing.Icon
 
 internal class CobolFileTypeTest {
 
-    @Disabled
     @Test
     fun shouldGetIcon() {
-        val expectedIcon = JAR_ICON
-        assertEquals(expectedIcon, CobolFileType().icon)
+        val expectedIcon = COBOL
+        assertEquals(expectedIcon, CobolFileType.INSTANCE.icon)
     }
 
-    @Disabled
     @Test
     fun getName() {
+        assertEquals("Cobol", CobolFileType.INSTANCE.name)
     }
 
-    @Disabled
     @Test
     fun getDefaultExtension() {
+        assertEquals("cbl", CobolFileType.INSTANCE.defaultExtension)
     }
 
-    @Disabled
     @Test
     fun getDescription() {
+        assertEquals("", CobolFileType.INSTANCE.description)
     }
 }
