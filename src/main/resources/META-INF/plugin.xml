@@ -3,7 +3,10 @@
     <name>Idea Cobol</name>
     <vendor email="michael.calvert@thoughtworks.com" url=""/>
 
-    <description>Adds Cobol support to all IDEA based IDEs.</description>
+    <description>
+        Adds Cobol support to all IDEA based IDEs.
+        Based on antlr grammar from proleap cobol parser https://github.com/uwol/proleap-cobol-parser.
+    </description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
